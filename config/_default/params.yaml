@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: blue
 
 # SEO
 marketing:
@@ -30,7 +30,7 @@ marketing:
 header:
   navbar:
     enable: true
-    blox: "navbar"
+    blox: "navbar-simple"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
