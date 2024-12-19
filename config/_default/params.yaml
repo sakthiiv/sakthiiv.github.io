@@ -58,3 +58,5 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+share: false
