@@ -95,9 +95,10 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+        - As an Architect and Platform Engineering Lead in Gosure.AI, I am responsible for driving the technical vision and architecture strategy while ensuring robust cloud infrastructure and DevOps practices. My role involves supporting and guiding the decisions on system scalability, security, and designing comprehensive solutions for insurance domain requirements. 
+        - I also establish and maintain development standards to ensure code quality and consistency across the platform by mentoring the engineering team. 
+        - In my engineering management capacity, I support in overseeing project delivery, ensuring timelines are met, and maintaining effective communication channels with stakeholders. 
+        - The platform engineering aspect of my role focuses on implementing and maintaining CI/CD pipelines, cloud infrastructure, and automated deployment processes.
   - position: Lead Consultant
     company_name: Thoughtworks
     company_url: 'https://www.thoughtworks.com/en-in'
