@@ -17,10 +17,10 @@ status:
 superuser: true
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 
 # Role/position/tagline
-role: Application Developer
+role: Programmer, Mentor, Consultant, Problem Solver
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -87,28 +87,61 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Architect
+    company_name: Gosure.AI
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-09-02
     date_end: ''
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+  - position: Lead Consultant
+    company_name: Thoughtworks
+    company_url: 'https://www.thoughtworks.com/en-in'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2018-10-31
+    date_end: 2024-08-27
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+        - Responsible for the delivery of the core digital platform features that enables organizational business teams to deliver faster value.
+        - Played the Technology principle role for multiple platform products under the Internal Developer Platform portfolio. 
+        - Played a key role in enabling the platform products to be the one stop shop for developer effectiveness with the goal to reduce cognitive load.
+        - Responsible for the architecture and delivery of an event driven and request response driven enablement platform for core business services.
+        - Led the delivery of integrations with SAAS products through AWS cloud for Procurement and Asset management domains.
+  - position: Module Lead
+    company_name: Photon Interactive Pvt Ltd
+    company_url: ''
+    company_logo: ''
+    date_start: 2018-10-31
+    date_end: 2024-08-27
+    summary: |
+      Responsibilities include:
+        - Led the delivery of product configurators for a multi-brand ecommerce conglomerate.
+        - Also, played the full stack engineer role contributing to client, server, and infrastructure development with javascript based technologies.
+  - position: Associate
+    company_name: Cognizant Technologies Solutions
+    company_url: 'https://www.thoughtworks.com/en-in'
+    company_logo: ''
+    date_start: 2012-04-01
+    date_end: 2017-09-30
+    summary: |
+      Responsibilities include:
+        - Responsible for analysis, development of web based client and server side applications with microsoft and open source technologies pridominantly javascript. 
+        - Played a full stack engineer with exposure to front-end, back-end and infrastructure.
+        - Contributed to the business process enhancements of a leading multi-cloud solutions provider.
+        - Handled the delivery of a responsive web application for a leading entertainment provider.
+  - position: Application developer
+    company_name: CG-VAK Software & Exports Ltd.
+    company_url: ''
+    company_logo: ''
+    date_start: 2010-11-01
+    date_end: 2012-03-31
+    summary: |
+      Responsibilities include:
+        - Core responsibilities includes, analysing and developing client and server based applications using microsoft technologies.                        
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -143,14 +176,30 @@ skills:
         description: ''
         percent: 80
         icon: camera
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera
 
 languages:
   - name: Tamil
     percent: 100
   - name: English
-    percent: 75
-  # - name: Portuguese
-  #   percent: 25
+    percent: 100
+  - name: Hindi
+    percent: 40
 
 # Awards.
 #   Add/remove as many awards below as you like.
