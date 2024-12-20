@@ -1,0 +1,7 @@
+.skills-content {
+  text-align: center !important;
+}
+
+div:has(+ .skills-content) {
+  text-align: center !important;
+}
