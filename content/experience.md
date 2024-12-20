@@ -18,6 +18,16 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: collection
+    content:
+      title: Certifications
+      filters:
+        folders:
+          - certifications
+      sort_by: 'weight'
+    design:
+      view: card
+      columns: 1      
   - block: resume-skills
     content:
       title: Skills

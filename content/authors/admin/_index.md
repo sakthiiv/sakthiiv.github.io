@@ -116,8 +116,8 @@ work:
     company_name: Photon Interactive Pvt Ltd
     company_url: ''
     company_logo: ''
-    date_start: 2018-10-31
-    date_end: 2024-08-27
+    date_start: 2017-09-30
+    date_end: 2018-10-31
     summary: |
       Responsibilities include:
         - Led the delivery of product configurators for a multi-brand ecommerce conglomerate.
@@ -172,19 +172,19 @@ skills:
       - name: Apache Kafka
         description: ''
         percent: 50
-        icon: circle-stack
-      - name: React
+        icon: queue-list
+      - name: ReactJs
         description: ''
         percent: 50
-        icon: circle-stack
+        icon: globe-alt
       - name: GCP
         description: ''
         percent: 50
-        icon: circle-stack
+        icon: cloud
       - name: AWS
         description: ''
         percent: 50
-        icon: circle-stack
+        icon: cloud
   - name: Architecture Design
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -192,31 +192,31 @@ skills:
       - name: Event Driven Architecture
         description: ''
         percent: 60
-        icon: 
+        icon: clipboard
       - name: API Gateway
         description: ''
         percent: 60
-        icon: 
+        icon: clipboard
       - name: Microservices
         description: ''
         percent: 100
-        icon: cat
+        icon: clipboard
       - name: Large Scale Refactoring
         description: ''
         percent: 80
-        icon: camera
+        icon: clipboard
       - name: Domain Driven Development
         description: ''
         percent: 80
-        icon: camera
+        icon: clipboard
       - name: Legacy Modernisation
         description: ''
         percent: 80
-        icon: camera
+        icon: clipboard
       - name: Platform Engineering
         description: ''
         percent: 80
-        icon: camera
+        icon: clipboard
 
 languages:
   - name: Tamil

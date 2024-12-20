@@ -58,9 +58,5 @@ We're an open source movement that depends on your support to stay online and th
 
 ## Todo
 
-- [ ] Deployment
-- [ ] Blog posts
-- [ ] Certifications
-- [ ] Update skills
 - [ ] Thoughtworks & Gosure experience
 - [ ] Resume link
