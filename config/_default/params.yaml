@@ -60,3 +60,6 @@ features:
     enable: false
 
 share: false
+
+plugins_css:
+  - custom

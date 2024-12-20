@@ -55,10 +55,10 @@ interests:
   - Generative AI
 
 education:
-  - area: MSc Software Engineering (WILP)
+  - area: M.Tech. (Software Engineering) - WILP
     institution: Birla Institute of Technology And Science
-    date_start: 2018-10-31
-    date_end: 2021-08-31
+    date_start: 2014-01-01
+    date_end: 2016-01-30
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     # button:
@@ -149,47 +149,71 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Java
+        description: ''
+        percent: 70
+        icon: code-bracket
+      - name: Javascript
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Python
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        percent: 60
+        icon: code-bracket
+      - name: MongoDB
         description: ''
-        percent: 40
+        percent: 70
         icon: circle-stack
-  - name: Hobbies
+      - name: Postgres
+        description: ''
+        percent: 50
+        icon: circle-stack
+      - name: Apache Kafka
+        description: ''
+        percent: 50
+        icon: circle-stack
+      - name: React
+        description: ''
+        percent: 50
+        icon: circle-stack
+      - name: GCP
+        description: ''
+        percent: 50
+        icon: circle-stack
+      - name: AWS
+        description: ''
+        percent: 50
+        icon: circle-stack
+  - name: Architecture Design
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Event Driven Architecture
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: 
+      - name: API Gateway
+        description: ''
+        percent: 60
+        icon: 
+      - name: Microservices
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Large Scale Refactoring
         description: ''
         percent: 80
         icon: camera
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
+      - name: Domain Driven Development
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        percent: 80
+        icon: camera
+      - name: Legacy Modernisation
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 80
+        icon: camera
+      - name: Platform Engineering
         description: ''
         percent: 80
         icon: camera
