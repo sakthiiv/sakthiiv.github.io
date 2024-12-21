@@ -38,7 +38,7 @@ Modernizing a legacy Orchestration Platform which automates and coordinates comp
 
 **Key Responsibilities:**
 
-- Spearheaded the modernization of the orchestration platform with the goal of enhancing the reliability and efficiency of the platform. 
+- Spearheading the modernization of the orchestration platform with the goal of enhancing the reliability and efficiency of the platform.
 - Leading the engineering team, providing direction, mentorship, and fostering a collaborative and high-performance culture.
 - Defined and executed the technical vision and strategy, ensuring alignment with business and product goals.
 - Promoted and implemented agile methodologies, including Test-Driven Development (TDD) and continuous automation via DevOps practices.
