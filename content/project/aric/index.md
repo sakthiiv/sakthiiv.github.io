@@ -3,7 +3,7 @@ title: ARIC
 summary: Advanced Javascript, AngularJS, C#, NancyFx for REST, Cassandra, JGraph, NPM, Bower, GruntJs, Microsoft IIS
 tags:
 - Cognizant
-date: "2015-05-31T00:00:00Z"
+date: "2015-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -42,5 +42,4 @@ A web app to define and generate Process definition for the cloud components and
 - Implemented client side architecture for integrating the viewer in a web application using AngularJs.
 - Implemented package manager and component manager using NPM, Bower and NodeJS. 
 - Automated client side code compilation and deployment using GruntJS.
-- Involved in design discussion for enhancements and changes.
 </div>

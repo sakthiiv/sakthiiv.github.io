@@ -3,7 +3,7 @@ title: Enterprise Strategy Management
 summary: ASP.Net, C#, MS-SQL, Telerik, JQuery, Highcharts, Microsoft IIS
 tags:
 - CG-VAK
-date: "2013-03-31T00:00:00Z"
+date: "2012-03-31T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -32,7 +32,7 @@ share: false
 ---
 
 <div style="font-size: 1rem !important;">
-Enterprise Strategy Management is a product that supports strategy planning, development and execution of the organizational goals. ESM enabled an enterprise with end to end strategic resource planning, allocation, budgeting, time tracker and reports with everything under one roof.
+Enterprise Strategy Management is a product that supports strategy planning, development and execution of the organizational goals. ESM enables an enterprise with end to end strategic resource planning, allocation, budgeting, time tracker and reports with everything under one roof.
 
 **Key Responsibilities:**
 

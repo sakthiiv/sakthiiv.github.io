@@ -24,8 +24,10 @@ role: Programmer, Mentor, Consultant, Problem Solver
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: gosure.ai
+  - name: Gosure.AI
     url: https://gosure.ai/
+  - name: Ex Thoughtworks
+    url: https://www.thoughtworks.com/en-in 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -262,4 +264,4 @@ languages:
 
 Sakthivel Viswanathan is a polyglot technologist with more than a decade long experience in development, architecting client and server based applications. His expertise includes but is not limited to digital platform strategy, driving platform engineering initiatives using cutting edge technologies. He is passionate in solving business problems by leveraging technology at core.
 
-Sakthivel is currently working in ThoughtWorks as a Technology principal with over thirteen plus years of collective experience in software delivery. He had played multiple roles throughout his tenure in Thoughtworks such as Tech Principal, Tech Lead, Developer, Consultant, Cultivator, Mentor, Architect and Internal Speaker.
+Sakthivel is currently working in Gosure.AI as an Architect with over fourteen plus years of collective experience in software development and delivery. He had played multiple roles throughout his tenure such as Technology Principal, Tech Lead, Developer, Consultant, Cultivator, Mentor, Architect and Speaker.

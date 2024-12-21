@@ -3,7 +3,7 @@ title: Password Rotater and Event Viewer
 summary: ASP.Net, C#, Cassandra, JQuery, JQuery datatables plugin, Microsoft IIS
 tags:
 - Cognizant
-date: "2013-12-31T00:00:00Z"
+date: "2015-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -34,13 +34,13 @@ share: false
 <div style="font-size: 1rem !important;">
 A web application for scheduling automatic rotation of passwords and to view the events of a cloud based process engine.
 
-**Client:** A cloud computing provider based out of Texas
+**Client:** A cloud computing provider based out of Texas, US
 
 **Key Responsibilities:**
 
 - Involved in design discussion for enhancements and changes.
 - Played a pivotal role in reviewing and maintaining the code.
 - Improved the code coverage through unit and integration tests.
-- Designed and developed an error report module using JQuery datatables plugin to view the events resulting in error and unprocessed state.
+- Designed and developed an error report module using JQuery datatables plugin to view the events resulting in "errored/unprocessed" state.
 - Involved in fixing high priority production defects during the maintenance phase.
 </div>

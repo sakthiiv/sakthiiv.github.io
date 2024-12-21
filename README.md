@@ -60,3 +60,4 @@ We're an open source movement that depends on your support to stay online and th
 
 - [ ] Thoughtworks & Gosure experience
 - [ ] Resume link
+- [ ] Google SEO

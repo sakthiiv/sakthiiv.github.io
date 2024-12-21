@@ -1,9 +1,9 @@
 ---
 title: Procurement, Asset Management and Compliance
-summary: NodeJs, Python, ReactJs, TDD, Serverless, AWS, Docker
+summary: NodeJs, Python, ReactJs, TDD, Serverless, AWS, Docker, Domain Driven Design
 tags:
 - Thoughtworks
-date: "2018-12-01T00:00:00Z"
+date: "2021-09-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

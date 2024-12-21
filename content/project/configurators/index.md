@@ -1,9 +1,9 @@
 ---
-title: Configurators
+title: Product Configurators
 summary: Advanced Javascript, NodeJs, ReactJs, Shell
 tags:
 - Photon
-date: "2017-10-01T00:00:00Z"
+date: "2018-10-31T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -38,7 +38,7 @@ Product configurators are tools that help customers to customize their products 
 
 **Key Responsibilities:**
 
-- Took ownership for the implementation and execution of various product configurators by closely working with the client leaders.
+- Took ownership for the implementation and execution of various product configurators by closely working with the stakeholders.
 - Involved in the configurator's design discussion for enhancements and changes.
 - Made a significant contribution by leading a team of three members to ensure the successful delivery of configurators during the holiday season.
 - Guided the team for the efficient configuration model design across the suite of configurators.
