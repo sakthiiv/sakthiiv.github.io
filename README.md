@@ -56,8 +56,3 @@ We're an open source movement that depends on your support to stay online and th
 `hugo mod clean` - Incase of any cache problem
 `hugo server -D`
 
-## Todo
-
-- [ ] Thoughtworks & Gosure experience
-- [ ] Resume link
-- [ ] Google SEO

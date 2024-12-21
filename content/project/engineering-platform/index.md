@@ -1,6 +1,6 @@
 ---
 title: Engineering Platform
-summary: Apache Kafka, Kong API Gateway, Microfrontends, Kotlin, Spring Boot, Event Driven Architecture, Legacy Modernization, API Management, GCP
+summary: Apache Kafka, Kong API Gateway, Microfrontends, Kotlin, Spring Boot, Event Driven Architecture, Legacy Modernization, API Management, Postgres, GCP, Kubernetes
 tags:
 - Thoughtworks
 date: "2024-08-27T00:00:00Z"

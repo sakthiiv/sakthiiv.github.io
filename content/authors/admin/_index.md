@@ -57,7 +57,7 @@ interests:
   - Generative AI
 
 education:
-  - area: M.Tech. (Software Engineering) - WILP
+  - area: M.Tech. (Software Engineering) Work integrated learning program
     institution: Birla Institute of Technology And Science
     date_start: 2014-01-01
     date_end: 2016-01-30
@@ -97,10 +97,9 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-        - As an Architect and Platform Engineering Lead in Gosure.AI, I am responsible for driving the technical vision and architecture strategy while ensuring robust cloud infrastructure and DevOps practices. My role involves supporting and guiding the decisions on system scalability, security, and designing comprehensive solutions for insurance domain requirements. 
-        - I also establish and maintain development standards to ensure code quality and consistency across the platform by mentoring the engineering team. 
+        - As an Architect and Platform Engineering Lead in Gosure.AI, my responsibilities include driving the technical vision and architecture strategy,  ensuring reliable and scalable infrastructure setup.
+        - Responsible for establishing and maintaining development standards to ensure code quality and consistency across the platform by mentoring the engineering team. 
         - In my engineering management capacity, I support in overseeing project delivery, ensuring timelines are met, and maintaining effective communication channels with stakeholders. 
-        - The platform engineering aspect of my role focuses on implementing and maintaining CI/CD pipelines, cloud infrastructure, and automated deployment processes.
   - position: Lead Consultant
     company_name: Thoughtworks
     company_url: 'https://www.thoughtworks.com/en-in'
@@ -109,10 +108,10 @@ work:
     date_end: 2024-08-27
     summary: |
       Responsibilities include:
-        - Responsible for the delivery of the core digital platform features that enables organizational business teams to deliver faster value.
+        - Led the delivery of the core digital platform features that enables organizational business teams to deliver faster value.
         - Played the Technology principle role for multiple platform products under the Internal Developer Platform portfolio. 
         - Played a key role in enabling the platform products to be the one stop shop for developer effectiveness with the goal to reduce cognitive load.
-        - Responsible for the architecture and delivery of an event driven and request response driven enablement platform for core business services.
+        - Was responsible for the architecture and delivery of an event driven and request response driven enablement platform for core business services.
         - Led the delivery of integrations with SAAS products through AWS cloud for Procurement and Asset management domains.
   - position: Module Lead
     company_name: Photon Interactive Pvt Ltd
