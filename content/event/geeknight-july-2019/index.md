@@ -33,7 +33,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 #links:
@@ -52,6 +52,7 @@ url_video: 'https://youtu.be/g0WAyOfA2Ls?t=115'
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+share: false
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
