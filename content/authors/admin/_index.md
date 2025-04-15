@@ -68,8 +68,8 @@ education:
     #   url: 'https://example.com'
   - area: Bachelor of Engineering
     institution: SNS College of Technology
-    date_start: 2006-04-01
-    date_end: 2010-03-31
+    date_start: 2006-08-01
+    date_end: 2010-05-31
     # summary: |
     #   GPA: 3.8/4.0
 
