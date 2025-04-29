@@ -131,7 +131,7 @@ work:
     date_end: 2017-09-30
     summary: |
       Responsibilities include:
-        - Responsible for analysis, development of web based client and server side applications with microsoft and open source technologies pridominantly javascript. 
+        - Responsible for analysis, development of web based client and server side applications with microsoft and open source technologies predominantly javascript. 
         - Played a full stack engineer with exposure to front-end, back-end and infrastructure.
         - Contributed to the business process enhancements of a leading multi-cloud solutions provider.
         - Handled the delivery of a responsive web application for a leading entertainment provider.
