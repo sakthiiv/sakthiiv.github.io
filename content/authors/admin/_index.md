@@ -92,7 +92,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2024-09-01
-    date_end: ''
+    date_end: '2025-04-01'
     summary: |2-
       Responsibilities include:
         - As an Architect and Platform Engineering Lead in Gosure.AI, my responsibilities include driving the technical vision and architecture strategy,  ensuring reliable and scalable infrastructure setup.
@@ -259,6 +259,6 @@ skills:
 
 ## About Me
 
-Sakthivel Viswanathan is a seasoned polyglot technologist who brings more than a decade of expertise in developing and architecting robust client and server-based applications. He specializes in digital platform strategy and spearheads platform engineering initiatives leveraging cutting-edge technologies. Driven by a passion for innovation, he excels at solving complex business challenges through strategic technology implementation.Sakthivel Viswanathan is a seasoned polyglot technologist who brings more than a decade of expertise in developing and architecting robust client and server-based applications. He specializes in digital platform strategy and spearheads platform engineering initiatives leveraging cutting-edge technologies. Driven by a passion for innovation, he excels at solving complex business challenges through strategic technology implementation.
+Sakthivel Viswanathan is a seasoned polyglot technologist who brings more than a decade of expertise in developing and architecting robust client and server-based applications. He specializes in digital platform strategy and spearheads platform engineering initiatives leveraging cutting-edge technologies. Driven by a passion for innovation, he excels at solving complex business challenges through strategic technology implementation.
 
 Sakthivel is currently working as a Lead Consultant with over fourteen plus years of collective experience in software development and delivery. He had played multiple roles throughout his tenure such as Technology Principal, Tech Lead, Developer, Consultant, Cultivator, Mentor, Architect and Speaker.
