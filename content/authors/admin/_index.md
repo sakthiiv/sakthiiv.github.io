@@ -35,12 +35,12 @@ profiles:
   # - icon: at-symbol
   #   url: 'mailto:your-email@example.com'
   #   label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/sakthiiv08
+  # - icon: brands/x
+  #   url: https://twitter.com/sakthiiv08
   # - icon: brands/instagram
   #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/sakthiiv
+    url: https://github.com/sakthivel-pro
   - icon: brands/linkedin
     url: https://in.linkedin.com/in/sakthivel-viswanathan-b9363519
   # - icon: academicons/google-scholar
@@ -60,7 +60,7 @@ education:
   - area: M.Tech. (Software Engineering) Work integrated learning program
     institution: Birla Institute of Technology And Science
     date_start: 2014-01-01
-    date_end: 2016-01-30
+    date_end: 2016-01-01
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     # button:
@@ -69,7 +69,7 @@ education:
   - area: Bachelor of Engineering
     institution: SNS College of Technology
     date_start: 2006-08-01
-    date_end: 2010-05-31
+    date_end: 2010-05-01
     # summary: |
     #   GPA: 3.8/4.0
 
@@ -93,7 +93,7 @@ work:
     company_name: Gosure.AI
     company_url: ''
     company_logo: ''
-    date_start: 2024-09-02
+    date_start: 2024-09-01
     date_end: ''
     summary: |2-
       Responsibilities include:
@@ -104,8 +104,8 @@ work:
     company_name: Thoughtworks
     company_url: 'https://www.thoughtworks.com/en-in'
     company_logo: ''
-    date_start: 2018-10-31
-    date_end: 2024-08-27
+    date_start: 2018-10-01
+    date_end: 2024-08-01
     summary: |
       Responsibilities include:
         - Led the delivery of the core digital platform features that enables organizational business teams to deliver faster value.
@@ -117,18 +117,18 @@ work:
     company_name: Photon Interactive Pvt Ltd
     company_url: ''
     company_logo: ''
-    date_start: 2017-09-30
-    date_end: 2018-10-31
+    date_start: 2017-09-01
+    date_end: 2018-10-01
     summary: |
       Responsibilities include:
         - Led the delivery of product configurators for a multi-brand ecommerce conglomerate.
         - Also, played the full stack engineer role contributing to client, server, and infrastructure development with javascript based technologies.
   - position: Associate
     company_name: Cognizant Technologies Solutions
-    company_url: 'https://www.thoughtworks.com/en-in'
+    company_url: 'https://www.cognizant.com/us/en'
     company_logo: ''
     date_start: 2012-04-01
-    date_end: 2017-09-30
+    date_end: 2017-09-01
     summary: |
       Responsibilities include:
         - Responsible for analysis, development of web based client and server side applications with microsoft and open source technologies predominantly javascript. 
@@ -140,7 +140,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2010-11-01
-    date_end: 2012-03-31
+    date_end: 2012-03-01
     summary: |
       Responsibilities include:
         - Core responsibilities includes, analysing and developing client and server based applications using microsoft technologies.                        
@@ -219,13 +219,13 @@ skills:
         percent: 80
         icon: clipboard
 
-languages:
-  - name: Tamil
-    percent: 100
-  - name: English
-    percent: 100
-  - name: Hindi
-    percent: 40
+# languages:
+#   - name: Tamil
+#     percent: 100
+#   - name: English
+#     percent: 100
+#   - name: Hindi
+#     percent: 40
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -261,6 +261,6 @@ languages:
 
 ## About Me
 
-Sakthivel Viswanathan is a polyglot technologist with more than a decade long experience in development, architecting client and server based applications. His expertise includes but is not limited to digital platform strategy, driving platform engineering initiatives using cutting edge technologies. He is passionate in solving business problems by leveraging technology at core.
+Sakthivel Viswanathan is a seasoned polyglot technologist who brings more than a decade of expertise in developing and architecting robust client and server-based applications. He specializes in digital platform strategy and spearheads platform engineering initiatives leveraging cutting-edge technologies. Driven by a passion for innovation, he excels at solving complex business challenges through strategic technology implementation.Sakthivel Viswanathan is a seasoned polyglot technologist who brings more than a decade of expertise in developing and architecting robust client and server-based applications. He specializes in digital platform strategy and spearheads platform engineering initiatives leveraging cutting-edge technologies. Driven by a passion for innovation, he excels at solving complex business challenges through strategic technology implementation.
 
-Sakthivel is currently working in Gosure.AI as an Architect with over fourteen plus years of collective experience in software development and delivery. He had played multiple roles throughout his tenure such as Technology Principal, Tech Lead, Developer, Consultant, Cultivator, Mentor, Architect and Speaker.
+Sakthivel is currently working as a Lead Consultant with over fourteen plus years of collective experience in software development and delivery. He had played multiple roles throughout his tenure such as Technology Principal, Tech Lead, Developer, Consultant, Cultivator, Mentor, Architect and Speaker.
