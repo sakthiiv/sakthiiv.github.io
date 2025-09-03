@@ -1,0 +1,13 @@
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" | default "Audio" }}
+
+<div class="audio-player my-4">
+  <h4 class="text-lg font-semibold mb-2">{{ $title }}</h4>
+  <audio controls class="w-full">
+    <source src="{{ $src }}" type="audio/mpeg">
+    <source src="{{ $src }}" type="audio/ogg">
+    <source src="{{ $src }}" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+

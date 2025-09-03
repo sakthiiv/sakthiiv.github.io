@@ -1,0 +1,18 @@
+{{ $path := .Get "path" }}
+{{ $caption := .Get "caption" }}
+
+<div class="table-container my-4">
+  {{ if $caption }}
+    <h4 class="text-lg font-semibold mb-2">{{ $caption }}</h4>
+  {{ end }}
+  
+  <div class="table-placeholder p-4 border rounded bg-gray-50 text-center text-gray-500">
+    {{ if $path }}
+      Table from file "{{ $path }}" would be displayed here.
+    {{ else }}
+      Table content would be displayed here.
+    {{ end }}
+    <br>
+    <small>Table functionality requires additional processing.</small>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+{{ $title := .Get "title" | default "Click to reveal" }}
+
+<div class="spoiler-container my-4">
+  <details class="border rounded-lg">
+    <summary class="cursor-pointer p-3 bg-gray-100 hover:bg-gray-200 font-medium">
+      {{ $title }}
+    </summary>
+    <div class="p-3 border-t">
+      {{ .Inner | markdownify }}
+    </div>
+  </details>
+</div>
+

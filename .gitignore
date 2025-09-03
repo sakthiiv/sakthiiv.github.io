@@ -13,9 +13,17 @@ node_modules/
 go.sum
 resources/
 public/
+hugo_stats.json
 
 # Mac
 .DS_Store
 
 # Test
 test/go.sum
+
+# IDE/Editor specific
+assets/jsconfig.json
+
+# Build artifacts
+*.tmp
+*.cache

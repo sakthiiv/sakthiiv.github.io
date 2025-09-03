@@ -1,0 +1,6 @@
+{{ $name := .Get 0 }}
+{{ $size := .Get "size" | default "1em" }}
+{{ $class := .Get "class" | default "" }}
+
+<i class="fas fa-{{ $name }} {{ $class }}" style="font-size: {{ $size }};"></i>
+

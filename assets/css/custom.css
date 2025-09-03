@@ -5,3 +5,67 @@
 div:has(+ .skills-content) {
   text-align: center !important;
 }
+
+/* Ensure all sections use consistent width and styling */
+.landing-page section {
+  margin-bottom: 2rem !important;
+}
+
+/* Maximum specificity override for all sections to use consistent width */
+html body .page-body .blox-resume-experience,
+html body .page-body .blox-collection,
+html body .page-body .blox-resume-skills {
+  /* Use consistent width like other sections */
+  max-width: 65ch !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Override the full-width layout for resume-experience with maximum specificity */
+html body .page-body .blox-resume-experience .flex.flex-col.items-center {
+  max-width: 65ch !important;
+  width: 100% !important;
+}
+
+/* Ensure the main content area has consistent alignment */
+.page-body section {
+  /* Preserve original styling but ensure alignment */
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* Maximum specificity override for all width classes */
+html body .page-body .blox-resume-experience .max-w-3xl,
+html body .page-body .blox-resume-experience .max-w-4xl,
+html body .page-body .blox-resume-experience .max-w-5xl,
+html body .page-body .blox-resume-experience .max-w-6xl,
+html body .page-body .blox-resume-experience .max-w-7xl {
+  max-width: 65ch !important;
+}
+
+/* Additional override using attribute selectors for maximum specificity */
+html body .page-body [id="section-resume-experience"] .flex.flex-col.items-center {
+  max-width: 65ch !important;
+}
+
+/* Override any remaining width constraints */
+html body .page-body [id="section-resume-experience"] * {
+  max-width: 65ch !important;
+}
+
+/* Add gap between Education and Experience sections */
+.blox-resume-experience .flex.flex-col.lg\\:gap-x-6 {
+  gap: 2rem !important;
+}
+
+/* Add margin between Education and Experience items */
+.blox-resume-experience ol li {
+  margin-bottom: 2rem !important;
+}
+
+/* Add extra spacing after the Experience title */
+.blox-resume-experience h3 {
+  margin-bottom: 2rem !important;
+}

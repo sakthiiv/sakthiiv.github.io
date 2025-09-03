@@ -27,7 +27,7 @@ sections:
       sort_by: 'weight'
     design:
       view: card
-      columns: 1      
+      columns: 1
   - block: resume-skills
     content:
       title: Skills

@@ -1,0 +1,10 @@
+{{ $display := .Get "display" | default "inline" }}
+
+{{ if eq $display "block" }}
+  <div class="math-block my-4 text-center">
+    $${{ .Inner }}$$
+  </div>
+{{ else }}
+  <span class="math-inline">${{ .Inner }}$</span>
+{{ end }}
+

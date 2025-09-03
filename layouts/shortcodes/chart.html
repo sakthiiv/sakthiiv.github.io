@@ -1,0 +1,13 @@
+{{ $type := .Get "type" | default "bar" }}
+{{ $data := .Get "data" }}
+{{ $title := .Get "title" | default "Chart" }}
+
+<div class="chart-container my-4">
+  <h4 class="text-lg font-semibold mb-2">{{ $title }}</h4>
+  <div class="chart-placeholder p-4 border rounded bg-gray-50 text-center text-gray-500">
+    Chart of type "{{ $type }}" would be displayed here.
+    <br>
+    <small>Chart functionality requires JavaScript charting library.</small>
+  </div>
+</div>
+
