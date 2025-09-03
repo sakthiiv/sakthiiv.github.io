@@ -28,16 +28,10 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+  - type: slides
+    url: ''
+  - type: video
+    url: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -58,8 +52,8 @@ projects:
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+#   Otherwise, set `slides = ""`.
+slides: ""
 ---
 
 This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.

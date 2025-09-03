@@ -44,7 +44,9 @@ image:
 url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: 'https://youtu.be/g0WAyOfA2Ls?t=115'
+links:
+  - type: video
+    url: 'https://youtu.be/g0WAyOfA2Ls?t=115'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

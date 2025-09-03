@@ -57,8 +57,11 @@ image:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: 'https://www.confluent.io/events/kafka-summit-bangalore-2024/the-events-wave-embracing-real-time-agility-with-event-driven-architecture/'
-url_video: 'https://www.confluent.io/events/kafka-summit-bangalore-2024/the-events-wave-embracing-real-time-agility-with-event-driven-architecture/'
+links:
+  - type: slides
+    url: 'https://www.confluent.io/events/kafka-summit-bangalore-2024/the-events-wave-embracing-real-time-agility-with-event-driven-architecture/'
+  - type: video
+    url: 'https://www.confluent.io/events/kafka-summit-bangalore-2024/the-events-wave-embracing-real-time-agility-with-event-driven-architecture/'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
