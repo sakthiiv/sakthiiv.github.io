@@ -68,10 +68,12 @@ sections:
       title: '📧 Stay Updated'
       subtitle: ''
       text: |-
-        Subscribe to my newsletter for the latest updates on my posts and insights in Application development and AI.
-        
+        <div class="text-center">
+          <p class="text-lg mb-6">Subscribe to my newsletter for the latest updates on my posts and insights in Application development and AI.</p>
+        </div>
+
         <div class="text-center mt-6">
-          <a href="https://newsletter.shiftelevate.dev?utm_source=website&utm_medium=newsletter&utm_campaign=main&utm_content=homepage" 
+          <a href="https://newsletter.shiftelevate.dev?utm_source=website&utm_medium=newsletter&utm_campaign=main&utm_content=homepage"
              target="_blank"
              rel="noopener noreferrer"
              class="inline-flex items-center px-6 py-3 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl no-underline"

@@ -21,7 +21,11 @@
           <h1 class="text-3xl font-bold mb-6">{{ $.Title }}</h1>
           <p class="text-lg text-gray-600 mb-8">Redirecting to external site...</p>
           <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
-            <a href="{{ .url }}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+            <a href="{{ .url }}"
+               class="inline-flex items-center px-6 py-3 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl no-underline"
+               style="background-color: #024859;"
+               onmouseover="this.style.backgroundColor='#013a47'"
+               onmouseout="this.style.backgroundColor='#024859'">
               Click here to continue
             </a>
           </div>
