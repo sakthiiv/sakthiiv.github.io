@@ -1,0 +1,50 @@
+{{ if site.Params.marketing.analytics.google_analytics }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Params.marketing.analytics.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.Params.marketing.analytics.google_analytics }}', {
+    // Enhanced measurement settings
+    enhanced_measurement: true,
+    // Privacy settings
+    anonymize_ip: true,
+    // Custom parameters for academic site
+    custom_map: {
+      'custom_parameter_1': 'content_type',
+      'custom_parameter_2': 'section'
+    }
+  });
+
+  // Content Analytics - Track page types
+  {{ if eq .Type "publication" }}
+    gtag('event', 'page_view', {
+      'content_type': 'publication',
+      'section': '{{ .Section }}',
+      'page_title': '{{ .Title }}'
+    });
+  {{ else if eq .Type "project" }}
+    gtag('event', 'page_view', {
+      'content_type': 'project',
+      'section': '{{ .Section }}',
+      'page_title': '{{ .Title }}'
+    });
+  {{ else if eq .Type "event" }}
+    gtag('event', 'page_view', {
+      'content_type': 'event',
+      'section': '{{ .Section }}',
+      'page_title': '{{ .Title }}'
+    });
+  {{ else if eq .Type "links" }}
+    gtag('event', 'page_view', {
+      'content_type': 'external_link',
+      'section': '{{ .Section }}',
+      'page_title': '{{ .Title }}'
+    });
+  {{ end }}
+</script>
+{{ end }}
+
+
+

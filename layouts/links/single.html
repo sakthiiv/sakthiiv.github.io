@@ -3,6 +3,16 @@
   {{ range .Params.links }}
     {{ if eq .type "site" }}
       <script>
+        // Track external link click before redirect
+        {{ if site.Params.marketing.analytics.google_analytics }}
+        gtag('event', 'click_external_link', {
+          'link_url': "{{ .url }}",
+          'link_text': "{{ $.Title }}",
+          'content_type': 'external_link',
+          'event_category': 'engagement'
+        });
+        {{ end }}
+        
         // Simple redirect to external site
         window.location.href = "{{ .url }}";
       </script>

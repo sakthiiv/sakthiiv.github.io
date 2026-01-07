@@ -63,6 +63,29 @@ sections:
   #       exclude_featured: false
   #   design:
   #     view: citation
+  - block: markdown
+    content:
+      title: '📧 Stay Updated'
+      subtitle: ''
+      text: |-
+        Subscribe to my newsletter for the latest updates on my posts and insights in Application development and AI.
+        
+        <div class="text-center mt-6">
+          <a href="https://newsletter.shiftelevate.dev?utm_source=website&utm_medium=newsletter&utm_campaign=main&utm_content=homepage" 
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center px-6 py-3 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl no-underline"
+             style="background-color: #024859;"
+             onmouseover="this.style.backgroundColor='#013a47'"
+             onmouseout="this.style.backgroundColor='#024859'">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            Visit my newsletter →
+          </a>
+        </div>
+    design:
+      columns: '1'
   - block: collection
     id: talks
     content:

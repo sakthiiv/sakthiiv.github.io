@@ -1,0 +1,103 @@
+{{ if site.Params.marketing.analytics.google_analytics }}
+<script>
+// Enhanced Analytics for Academic Website
+
+// Track downloads (resume, papers, etc.)
+document.addEventListener('click', function(e) {
+  const link = e.target.closest('a[href]');
+  if (!link) return;
+  
+  const href = link.getAttribute('href');
+  const linkText = link.textContent.trim();
+  
+  // Track PDF downloads
+  if (href && href.toLowerCase().includes('.pdf')) {
+    gtag('event', 'file_download', {
+      'file_name': href.split('/').pop(),
+      'file_type': 'pdf',
+      'link_text': linkText,
+      'event_category': 'download'
+    });
+  }
+  
+  // Track external links (excluding analytics)
+  if (href && (href.startsWith('http') || href.startsWith('//')) && 
+      !href.includes('google-analytics.com') && 
+      !href.includes('googletagmanager.com')) {
+    
+    // Special tracking for newsletter links
+    if (href.includes('newsletter.shiftelevate.dev') || href.includes('utm_medium=newsletter')) {
+      gtag('event', 'newsletter_click', {
+        'link_url': href,
+        'link_text': linkText,
+        'event_category': 'newsletter',
+        'event_label': 'newsletter_visit'
+      });
+    } else {
+      gtag('event', 'click_external_link', {
+        'link_url': href,
+        'link_text': linkText,
+        'event_category': 'outbound'
+      });
+    }
+  }
+});
+
+// Track scroll depth for content engagement
+let maxScroll = 0;
+window.addEventListener('scroll', function() {
+  const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+  
+  if (scrollPercent > maxScroll && scrollPercent % 25 === 0) {
+    maxScroll = scrollPercent;
+    gtag('event', 'scroll_depth', {
+      'scroll_percentage': scrollPercent,
+      'page_title': document.title,
+      'event_category': 'engagement'
+    });
+  }
+});
+
+// Track time on page
+let startTime = Date.now();
+window.addEventListener('beforeunload', function() {
+  const timeOnPage = Math.round((Date.now() - startTime) / 1000);
+  gtag('event', 'time_on_page', {
+    'time_seconds': timeOnPage,
+    'page_title': document.title,
+    'event_category': 'engagement'
+  });
+});
+
+// Track publication views with metadata
+{{ if eq .Type "publication" }}
+gtag('event', 'view_publication', {
+  'publication_title': '{{ .Title }}',
+  'publication_type': '{{ .Params.publication_types | default "unknown" }}',
+  'authors': '{{ .Params.authors | default "unknown" }}',
+  'year': '{{ .Params.date.Format "2006" }}',
+  'event_category': 'content'
+});
+{{ end }}
+
+// Track project views
+{{ if eq .Type "project" }}
+gtag('event', 'view_project', {
+  'project_title': '{{ .Title }}',
+  'project_tags': '{{ .Params.tags | default "none" }}',
+  'event_category': 'content'
+});
+{{ end }}
+
+// Track event views
+{{ if eq .Type "event" }}
+gtag('event', 'view_event', {
+  'event_title': '{{ .Title }}',
+  'event_date': '{{ .Params.date.Format "2006-01-02" }}',
+  'event_category': 'content'
+});
+{{ end }}
+
+// Simple newsletter link tracking (handled above in general link tracking)
+</script>
+{{ end }}

@@ -1,0 +1,39 @@
+{{/*
+Newsletter Link Shortcode for beehiiv Integration
+
+Usage:
+{{< newsletter-link 
+    text="Subscribe to my newsletter"
+    location="header"
+    campaign="main"
+>}}
+
+Parameters:
+- text: Link text (optional)
+- location: Where it's placed (optional, for analytics)
+- campaign: Campaign name (optional)
+*/}}
+
+{{ $text := .Get "text" | default "Subscribe to Newsletter" }}
+{{ $location := .Get "location" | default "unknown" }}
+{{ $campaign := .Get "campaign" | default "main" }}
+
+{{ $beehiivUrl := site.Params.marketing.newsletter.beehiiv_url }}
+{{ $utmSource := site.Params.marketing.newsletter.utm_source }}
+{{ $utmMedium := site.Params.marketing.newsletter.utm_medium }}
+
+{{ if $beehiivUrl }}
+<a href="{{ $beehiivUrl }}?utm_source={{ $utmSource }}&utm_medium={{ $utmMedium }}&utm_campaign={{ $campaign }}&utm_content={{ $location }}" 
+   class="newsletter-link text-blue-600 hover:text-blue-700 transition-colors duration-200"
+   data-location="{{ $location }}"
+   data-utm-source="{{ $utmSource }}"
+   data-utm-medium="{{ $utmMedium }}"
+   data-utm-campaign="{{ $campaign }}">
+  {{ $text }}
+</a>
+{{ else }}
+<span class="text-gray-500">{{ $text }}</span>
+{{ end }}
+
+
+

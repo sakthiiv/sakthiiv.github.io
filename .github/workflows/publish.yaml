@@ -48,6 +48,7 @@ jobs:
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
+        GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"

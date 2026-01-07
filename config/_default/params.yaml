@@ -17,11 +17,16 @@ marketing:
     description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: '{{ if getenv "GOOGLE_ANALYTICS_ID" }}{{ getenv "GOOGLE_ANALYTICS_ID" }}{{ end }}'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
     pirsch: ''
+  newsletter:
+    beehiiv_url: 'https://newsletter.shiftelevate.dev'
+    utm_source: 'website'
+    utm_medium: 'newsletter'
+    utm_campaign: 'main'
   verification:
     google: ''
     baidu: ''

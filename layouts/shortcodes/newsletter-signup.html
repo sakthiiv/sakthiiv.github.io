@@ -1,0 +1,62 @@
+{{/*
+Newsletter Signup Shortcode for beehiiv Integration
+
+Usage:
+{{< newsletter-signup 
+    title="Subscribe to My Newsletter" 
+    subtitle="Get the latest updates on my research and projects"
+    button_text="Subscribe Now"
+    location="footer"
+>}}
+
+Parameters:
+- title: Newsletter title (optional)
+- subtitle: Newsletter description (optional) 
+- button_text: Button text (optional)
+- location: Where it's placed (optional, for analytics)
+*/}}
+
+{{ $title := .Get "title" | default "Subscribe to My Newsletter" }}
+{{ $subtitle := .Get "subtitle" | default "Get the latest updates on my research and projects" }}
+{{ $buttonText := .Get "button_text" | default "Subscribe Now" }}
+{{ $location := .Get "location" | default "unknown" }}
+
+{{ $beehiivUrl := site.Params.marketing.newsletter.beehiiv_url }}
+{{ $utmSource := site.Params.marketing.newsletter.utm_source }}
+{{ $utmMedium := site.Params.marketing.newsletter.utm_medium }}
+{{ $utmCampaign := site.Params.marketing.newsletter.utm_campaign }}
+
+{{ if $beehiivUrl }}
+<div class="newsletter-signup bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6 my-8">
+  <div class="text-center">
+    <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ $title }}</h3>
+    <p class="text-gray-600 mb-4">{{ $subtitle }}</p>
+    
+    <a href="{{ $beehiivUrl }}?utm_source={{ $utmSource }}&utm_medium={{ $utmMedium }}&utm_campaign={{ $utmCampaign }}&utm_content={{ $location }}" 
+       class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 newsletter-signup-btn"
+       data-location="{{ $location }}"
+       data-utm-source="{{ $utmSource }}"
+       data-utm-medium="{{ $utmMedium }}"
+       data-utm-campaign="{{ $utmCampaign }}">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+      </svg>
+      {{ $buttonText }}
+    </a>
+    
+    <p class="text-xs text-gray-500 mt-3">
+      Powered by <a href="https://beehiiv.com" target="_blank" class="text-blue-600 hover:text-blue-700">beehiiv</a>
+    </p>
+  </div>
+</div>
+{{ else }}
+<!-- Newsletter signup placeholder when beehiiv URL is not configured -->
+<div class="newsletter-signup bg-gray-100 border border-gray-300 rounded-lg p-6 my-8">
+  <div class="text-center">
+    <p class="text-gray-600">Newsletter signup will be available once configured.</p>
+  </div>
+</div>
+{{ end }}
+
+
+

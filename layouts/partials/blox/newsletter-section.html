@@ -1,0 +1,48 @@
+{{/*
+Newsletter Section for Homepage
+*/}}
+
+<div class="newsletter-section bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-8 my-12">
+  <div class="text-center max-w-2xl mx-auto">
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">📧 Stay Updated</h2>
+    <p class="text-gray-600 mb-6">
+      Subscribe to my newsletter for the latest updates on my research, projects, and insights in application development.
+    </p>
+    
+    {{ if site.Params.marketing.newsletter.beehiiv_url }}
+    {{ $beehiivUrl := site.Params.marketing.newsletter.beehiiv_url }}
+    {{ $utmSource := site.Params.marketing.newsletter.utm_source }}
+    {{ $utmMedium := site.Params.marketing.newsletter.utm_medium }}
+    {{ $utmCampaign := site.Params.marketing.newsletter.utm_campaign }}
+    
+    <a href="{{ $beehiivUrl }}?utm_source={{ $utmSource }}&utm_medium={{ $utmMedium }}&utm_campaign={{ $utmCampaign }}&utm_content=homepage" 
+       class="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 newsletter-signup-btn text-lg"
+       data-location="homepage"
+       data-utm-source="{{ $utmSource }}"
+       data-utm-medium="{{ $utmMedium }}"
+       data-utm-campaign="{{ $utmCampaign }}">
+      <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+      </svg>
+      Subscribe to Newsletter
+    </a>
+    
+    <p class="text-sm text-gray-500 mt-4">
+      Powered by <a href="https://beehiiv.com" target="_blank" class="text-blue-600 hover:text-blue-700">beehiiv</a> • 
+      <a href="{{ $beehiivUrl }}?utm_source={{ $utmSource }}&utm_medium={{ $utmMedium }}&utm_campaign={{ $utmCampaign }}&utm_content=homepage_preview" 
+         class="text-blue-600 hover:text-blue-700 newsletter-link"
+         data-location="homepage_preview"
+         data-utm-source="{{ $utmSource }}"
+         data-utm-medium="{{ $utmMedium }}"
+         data-utm-campaign="{{ $utmCampaign }}">Preview recent issues</a>
+    </p>
+    {{ else }}
+    <div class="bg-gray-100 border border-gray-300 rounded-lg p-6">
+      <p class="text-gray-600">Newsletter signup will be available once beehiiv URL is configured.</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+
+
