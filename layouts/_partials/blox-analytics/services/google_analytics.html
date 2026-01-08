@@ -1,4 +1,4 @@
-{{ $ga := getenv "GOOGLE_ANALYTICS_ID" | default site.Params.marketing.analytics.google_analytics | default "" }}
+{{ $ga := getenv "HUGO_GOOGLE_ANALYTICS_ID" | default site.Params.marketing.analytics.google_analytics | default "" }}
 
 {{ if hugo.IsProduction | and $ga }}
 
