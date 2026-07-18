@@ -22,11 +22,6 @@ marketing:
     plausible: ''
     fathom: ''
     pirsch: ''
-  newsletter:
-    beehiiv_url: 'https://newsletter.shiftelevate.dev'
-    utm_source: 'website'
-    utm_medium: 'newsletter'
-    utm_campaign: 'main'
   verification:
     google: ''
     baidu: ''

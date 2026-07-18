@@ -87,6 +87,17 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
+  - position: Lead Consultant
+    company_name: Equal Experts
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-04-01
+    date_end: ''
+    summary: |
+      Responsibilities include:
+        - Leading engineering teams with agile practices such as pair programming, test-driven development, and continuous integration to ensure high-quality software delivery.
+        - Conducting code reviews to maintain code quality, consistency, and adherence to best practices across teams.
+        - Mentoring and coaching team members on software craftsmanship, fostering a culture of continuous improvement and technical excellence.
   - position: Architect
     company_name: Gosure.AI
     company_url: ''

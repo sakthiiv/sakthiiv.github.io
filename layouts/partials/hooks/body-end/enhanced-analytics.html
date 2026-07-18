@@ -25,21 +25,11 @@ document.addEventListener('click', function(e) {
       !href.includes('google-analytics.com') && 
       !href.includes('googletagmanager.com')) {
     
-    // Special tracking for newsletter links
-    if (href.includes('newsletter.shiftelevate.dev') || href.includes('utm_medium=newsletter')) {
-      gtag('event', 'newsletter_click', {
-        'link_url': href,
-        'link_text': linkText,
-        'event_category': 'newsletter',
-        'event_label': 'newsletter_visit'
-      });
-    } else {
-      gtag('event', 'click_external_link', {
-        'link_url': href,
-        'link_text': linkText,
-        'event_category': 'outbound'
-      });
-    }
+    gtag('event', 'click_external_link', {
+      'link_url': href,
+      'link_text': linkText,
+      'event_category': 'outbound'
+    });
   }
 });
 
@@ -97,7 +87,5 @@ gtag('event', 'view_event', {
   'event_category': 'content'
 });
 {{ end }}
-
-// Simple newsletter link tracking (handled above in general link tracking)
 </script>
 {{ end }}
